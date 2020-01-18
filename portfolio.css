@@ -1,0 +1,134 @@
+body
+{
+    color: #ffffff;
+    background-color: black;
+    background-image: url(back.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+body h1
+{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    text-align: center;
+}
+
+footer img:hover, footer img:active
+{
+    transition: transform 0.2s;
+    transform: scale(1.3);
+}
+
+.col1
+{
+    margin-left: 10px;
+    background-image: url(me1.jpg);
+    background-repeat: no-repeat;
+    background-size: 300px;
+    float: left;
+    
+    font-size: 25px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    width: 300px;
+    height: 1000px;
+    border: 1px solid white;
+    box-sizing: border-box;
+    border-radius: 25px;
+}
+
+.col2
+{
+    padding: 10px;
+    margin-left: 320px;
+    font-size: 25px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    width: 920px;
+    height: 1000px;
+    border: 1px solid white;
+    box-sizing: border-box;
+    border-radius: 25px;
+}
+
+#name
+{
+    text-align: center;
+    background-color: white;
+    color: black;
+    font-weight: bolder;
+    font-size: larger;
+}
+
+body div div
+{
+    font-size: smaller;
+}
+
+#about
+{
+    font-size: 35px;
+    text-decoration: underline;
+    text-align: center;
+}
+
+#about:hover, #about:active
+{
+    transform: rotateY(180deg);
+    transition: transform 1s;
+}
+
+.png
+{
+    margin-left: 5px;
+    float: left;
+    width: 30px;
+    height: 30px;
+}
+
+h3
+{
+    border: 2px solid white;
+    padding: 4px;
+    border-radius: 10px;
+} 
+
+h4
+{
+    border: 2px solid white;
+    padding: 6px;
+    border-radius: 10px;
+}
+
+#mail
+{
+    font-size: 20px;
+}
+
+footer
+{
+    text-align: center;
+    text-decoration: underline;
+    border: 2px solid white;
+    border-radius: 20px;
+    width: 1240px;
+    height: 150px;
+}
+
+a
+{
+    text-decoration: none;
+    color: white;
+}
+
+a:hover
+{
+    text-decoration: none;
+    color: orange;
+}
+
+.social
+{
+    align-items: center;
+    width: 50px;
+    height: 50px;
+}

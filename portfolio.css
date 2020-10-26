@@ -35,6 +35,9 @@ footer img:hover, footer img:active
     border: 1px solid white;
     box-sizing: border-box;
     border-radius: 25px;
+
+    overflow-x: auto;
+    overflow-y: auto;
 }
 
 .col2
@@ -43,11 +46,13 @@ footer img:hover, footer img:active
     margin-left: 320px;
     font-size: 25px;
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-    width: 920px;
-    height: 1300px;
+
     border: 1px solid white;
     box-sizing: border-box;
     border-radius: 25px;
+
+    overflow-x: auto;
+    overflow-y: auto;
 }
 
 #name
@@ -110,8 +115,10 @@ footer
     text-decoration: underline;
     border: 2px solid white;
     border-radius: 20px;
-    width: 1240px;
     height: 150px;
+
+    overflow-x: auto;
+    overflow-y: auto;
 }
 
 a
